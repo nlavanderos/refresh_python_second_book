@@ -1,0 +1,7 @@
+https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata
+https://pypi.org/classifiers/
+https://test.pypi.org/
+https://peps.python.org/pep-0639/
+https://choosealicense.com/
+
+py -m twine upload --repository testpypi ./* --config-file .pypirc
